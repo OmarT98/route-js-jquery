@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 6 JS | JQ</title>
+
+    <!-- ! ========== FONT AWESOME ========== -->
+    <link rel="stylesheet" href="./css/all.min.css" />
+    <!-- ! ========== BOOTSTRAP ========== -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <!-- ! ========== MAIN CSS ========== -->
+    <link rel="stylesheet" href="./css/style.css" />
+</head>
+
+<body>
+    <div id="home" class="home d-flex align-items-center text-center min-vh-100">
+        <div class="container">
+            <div class="home-content">
+                <h2>Cairokee</h2>
+                <p>Empire</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="side-bar position-fixed min-vh-100 position-relative d-flex justify-content-center">
+        <ul class="side-list list-unstyled p-5 d-flex flex-column justify-content-center align-items-center m-0">
+            <i class="fa-solid fa-xmark close-icon position-absolute fs-2"></i>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#accordion">Duration</a></li>
+            <li><a href="#eventDate">Details</a></li>
+            <li><a href="#contactUs">Contact</a></li>
+        </ul>
+
+        <div class="open-icon position-absolute fs-2">
+            <i class="fa-solid fa-bars"></i>
+            <span>Open</span>
+        </div>
+    </div>
+
+    <div id="accordion" class="accordion w-100 text-center py-5">
+        <h3 class="w-75 mb-0 mx-auto p-2">Amir Eid</h3>
+        <div class="accordion-info w-75 mx-auto p-4">
+            Amir Eid is an Egyptian singer, songwriter, and actor. He is the lead vocalist of the rock band Cairokee. He
+            founded the Egyptian rock band Cairokee in 2003 and recorded political songs during the egyptian revolution.
+            These songs include Sout el Horeya and ya el midan.
+        </div>
+        <h3 class="w-75 mb-0 mx-auto p-2">Amir Eid</h3>
+        <div class="accordion-info w-75 mx-auto p-4">
+            Amir Eid is an Egyptian singer, songwriter, and actor. He is the lead vocalist of the rock band Cairokee. He
+            founded the Egyptian rock band Cairokee in 2003 and recorded political songs during the egyptian revolution.
+            These songs include Sout el Horeya and ya el midan.
+        </div>
+        <h3 class="w-75 mb-0 mx-auto p-2">Amir Eid</h3>
+        <div class="accordion-info w-75 mx-auto p-4">
+            Amir Eid is an Egyptian singer, songwriter, and actor. He is the lead vocalist of the rock band Cairokee. He
+            founded the Egyptian rock band Cairokee in 2003 and recorded political songs during the egyptian revolution.
+            These songs include Sout el Horeya and ya el midan.
+        </div>
+    </div>
+
+    <div id="eventDate" class="event-date py-5">
+        <div class="container py-5">
+            <div id="eventDateData" class="row g-3">
+
+
+
+            </div>
+        </div>
+    </div>
+
+    <div id="contactUs" class="py-5">
+        <div class="container">
+            <div>
+                <h2>Join Us</h2>
+                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="con-info">
+                        <h3><strong>CONTACT INFO</strong></h3>
+                        <p>Why you should hire me writeup Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                            Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque nascetur ridiculus mus.
+                        </p>
+                        <div class="icons">
+                            <p><i class="fa fa-map-marker"></i> New Street 22545, Nexa Road, New York City, USA</p>
+                            <p><i class="fa fa-envelope"></i> hello@uigrid.com</p>
+                            <p><i class="fa fa-phone"></i> 001-000-000-000</p>
+                        </div>
+                        <div class="social-list">
+                            <i class="fab fa-twitter fa-fw"></i>
+                            <i class="fab fa-facebook-f fa-fw"></i>
+                            <i class="fab fa-instagram fa-fw"></i>
+                            <i class="fab fa-dribbble fa-fw"></i>
+                            <i class="fab fa-pinterest fa-fw"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <form>
+                        <input class="form-control input-lg my-2" type="text" placeholder="Enter Name">
+                        <input class="form-control input-lg my-2" type="email" placeholder="Enter Email">
+                        <textarea maxlength="100" class="form-control input-lg my-2"
+                            placeholder="Enter Message"></textarea>
+                        <span id="chars" class="text-dark fw-bolder">100</span> Character Reamining
+                        <button style="display:block;margin-top:20px" class="btn border-black">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./js/jquery-3.7.1.min.js"></script>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/index.js"></script>
+</body>
+
+</html>
